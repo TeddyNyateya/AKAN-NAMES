@@ -88,7 +88,7 @@ const dayOfTheWeek = () => {
         }
       });
     } else if (female.checked) {
-      akanMale.find((item, index, arr) => {
+      akanFemale.find((item, index, arr) => {
         if (index == day) {
           console.log(item.ghana, item.english);
           document.getElementById("title").innerHTML = item.ghana;
